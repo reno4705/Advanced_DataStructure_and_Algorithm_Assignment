@@ -1,0 +1,7 @@
+Bubble Sort has worst-case, best-case, and average-case time complexities of O(n^2), O(n), and O(n^2) respectively. It is generally inefficient for large datasets.
+
+Python's built-in sorted function, which uses the Timsort algorithm (a hybrid sorting algorithm derived from merge sort and insertion sort), has an average-case time complexity of O(n log n). It performs well on most data types and is optimized for Python's data structures.
+
+Bubble Sort is a simple sorting algorithm with poor performance on large datasets, especially when compared to more efficient algorithms like Timsort (used in Python's sorted function). Bubble Sort's main advantage is its simplicity, making it suitable for educational purposes or small datasets with almost sorted data.
+
+So, for sorting large or real-world datasets, more efficient algorithms like Merge Sort or Quick Sort are preferred due to their better average and worst-case time complexities.

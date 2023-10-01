@@ -1,0 +1,5 @@
+The time complexity of the N-Queens backtracking algorithm is exponential, specifically O(N!). This is because it explores all possible combinations of queen placements. For small values of N, the algorithm runs quickly, but it becomes impractical for larger N values.
+
+The backtracking algorithm becomes increasingly inefficient as N grows because the number of possible solutions grows factorially. To handle larger N values efficiently, more optimized algorithms, such as those based on symmetry breaking and constraint propagation, are recommended. However, these algorithms are more complex to implement.
+
+For small-scale purposes, the backtracking algorithm is sufficient. Still, for solving N-Queens instances with N in the 20s or higher, more advanced techniques are required to obtain results in a reasonable time frame.
